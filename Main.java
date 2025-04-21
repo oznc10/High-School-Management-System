@@ -52,15 +52,9 @@ public class Main {
         principalAziz.addStudent(studentHaydar);
         principalAziz.addStudent(studentSemih);
         principalAziz.addStudent(studentErkan);
-
-
         principalAziz.addTeacher(teacherAli);
         principalAziz.addTeacher(teacherAyse);
         principalAziz.addTeacher(teacherCan);
-
-
-
-
         while(true){
             System.out.println("Welcome to Student Management System.Please choose your operation.(1 - 12)");
             System.out.println("1 - List Teachers");
@@ -75,7 +69,6 @@ public class Main {
             System.out.println("10 - Update All Student's Grade");
             System.out.println("11 - Update All Teacher's Salary");
             System.out.println("12 - Exit");
-
             int choose = input.nextInt();
             if(choose < 1 || choose > 12){
                 return;
